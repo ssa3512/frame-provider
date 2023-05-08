@@ -1,0 +1,20 @@
+{
+  "name": "frame-provider",
+  "version": "0.0.1",
+  "description": "Ethers V6 provider for Frame local rpc",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ssa3512/frame-provider.git"
+  },
+  "module": "dist/index.js",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.3.0"
+  }
+}
